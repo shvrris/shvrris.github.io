@@ -33,10 +33,12 @@
                 result = Element("result")
                 if user_guess == selection: 
                     result.write("Congratulations! You guessed correctly.")
-                elseif user_guess > selection: 
-                    result.write("Try again! Your Guess was too high.")
+                elif user_guess > selection: 
+                    result.write("Try again! Your guess was too high.")
                 else:
                     result.write("Try again! Your guess was too low")
+
+
         </py-script>
     </body>
 </html>
